@@ -1,5 +1,6 @@
 input {
     outline: none;
+
 }
 
 .title {
@@ -74,7 +75,57 @@ input {
     float: right;
     max-width: 400px;
     /* When styling, please change this background */
-    background: rgb(68, 141, 201);
 }
 
+main{
+    height: 700px;
+    width: 100%;
+    background-color: #dfe6e7;
+    
+}
 
+.full_name_wrapper {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-bottom: 5px;
+   border-color: #bdc7d8;
+   border-radius: 10px;
+}
+
+.num_or_email_wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+ }
+ 
+ .passwrod_wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+ }
+ 
+ .gender h5{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+
+ }
+ .date-of-birth h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+ }
+ 
+ .data_policy_wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+ }
+   
+ .sign_up_button_wrapper{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+ }
+
+ 
