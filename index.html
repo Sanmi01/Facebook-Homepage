@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Facebook-log in or sign up</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="//db.onlinewebfonts.com/c/aa12a710af434ef5e04f88fc37a4c7cc?family=Klavika+Bold" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 
   </head>
   <body>
@@ -29,12 +29,114 @@
                       </tr>
                       <tr>
                           <td></td>
-                          <td><a id="forgot" href="">Forgotten account?</a></td>
+                          <td><a id="forgot" href="#">Forgotten account?</a></td>
                       </tr>
                   </tbody>
               </table>
           </div>
       </header>
+      <main>
+          <div class="form">
+              <div class="form-heading">
+                  <h1>Create an account</h1>
+                  <p>It's quick and easy</p>
+              </div>
+              <form action="sub">
+                  <div class="full_name_wrapper">
+                      <input type="text" placeholder="First name" class="first_name">
+                 <input type="text" placeholder="Surname" class="surname">
+                  </div>
+                 <div class="num_or_email_wrapper">
+                      <input type="text" placeholder="Mobile number or email address" class="num_or_email">
+                 </div>
+                <div class="passwrod_wrapper">
+                    <input type="password" placeholder="New password" class="password">
+                </div>
+                 
+                 <div class="date-of-birth">
+                    <h3>Date of birth</h3>
+                     <span class="select_birthday_day">
+                        <select name="birthday_day" id="birthday_day">
+                            <option value="0">1</option>
+                            <option value="1">2</option>
+                            <option value="2">3</option>
+                            <option value="3">4</option>
+                            <option value="4">5</option>
+                            <option value="5">6</option>
+                            <option value="6">7</option>
+                            <option value="7">8</option>
+                            <option value="8">9</option>
+                            <option value="9">10</option>
+                         </select>
+
+                     </span>
+                     <span class="select_birthday_month">
+                        <select name="birthday_month" id="month">
+                            <option value="0">Jan</option>
+                            <option value="1">Feb</option>
+                            <option value="2">Mar</option>
+                            <option value="3">April</option>
+                            <option value="4">May</option>
+                            <option value="5">June</option>
+                            <option value="6">July</option>
+                            <option value="7">Aug</option>
+                            <option value="8">Sept</option>
+                            <option value="9">Oct</option>
+                            <option value="10">Nov</option>
+                            <option value="11">Dec</option>
+                        </select>
+
+                     </span>
+                     <span class="select_birthday_year">
+                        <select name="birthday_year" id="year">
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                            <option value="2015">2015</option>
+                            <option value="2014">2014</option>
+                            <option value="2013">2013</option>
+                        </select>
+                     </span>
+                     <span class="click_for_more_info" style="background: rgba(0,0,0,0.5); padding: 5px;">?</span>
+                  </div>
+                     
+                 <div class="gender">
+                    <h5>Gender</h5>
+                     <span>
+                         <input type="radio" name="sex"> Male 
+                     </span>
+                     <span>
+                          <input type="radio" name="sex"> Female
+                     </span>
+                     <span>
+                         <input type="radio" name="sex">Custom
+                     </span>
+
+                     <span class="click_for_more_info" style="background: rgba(0,0,0,0.5); padding: 5px;">?</span>
+                    
+                 </div>
+                 <div class="data_policy_wrapper">
+                    <p class="data_policy">
+                        By clicking Sign Up, you agree to our Terms, 
+                    Data Policy and Cookie Policy. You may receive 
+                    SMS notifications from us and can opt out at any time.
+                    </p> 
+                 </div>
+                 <div class="sign_up_button_wrapper">
+                     <button type="button" class="sign_up_button">Sign Up</button>
+                 </div>
+                 <div class="create_a_page_wrapper">
+                     <p class="create_a_page">
+                        Create a Page for a celebrity, band or business.
+                     </p>
+
+                 </div>
+
+                
+              </form>
+          </div>
+      </main>
 
       <footer>
 
