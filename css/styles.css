@@ -146,7 +146,7 @@ main{
  }
    
  .sign_up_button_wrapper{
-     margin-bottom: 10px;
+    margin-bottom: 10px;
     border: 1px solid;
     border-radius: 5px;
     color: #fff;
@@ -179,6 +179,25 @@ main{
     color: #90949c;
     font-size: 16px;
     font-weight: bold;
+ }
+
+ #footer_wrapper {
+     margin: 45px 250px 20px;
+     font-size: 13px;
+     line-height: 1.6;
+     word-spacing: 9px;
+     color: #737373;
+ }
+
+ #footer_wrapper a {
+    color: #385898;
+    cursor: pointer;
+ }
+
+ #copyright {
+     padding-top: 10px;
+     font-size: 11px;
+     word-spacing: normal;
  }
  
  
