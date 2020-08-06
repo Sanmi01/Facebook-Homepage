@@ -1,6 +1,9 @@
+body {
+  min-width: 1224px;
+}
+
 input {
   outline: none;
-
 }
 
 
