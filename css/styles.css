@@ -187,6 +187,7 @@ main{
      line-height: 1.6;
      word-spacing: 9px;
      color: #737373;
+     min-width: 1024px;
  }
 
  #footer_wrapper a {
