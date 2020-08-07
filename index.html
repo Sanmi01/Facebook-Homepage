@@ -1,254 +1,236 @@
-body {
-  min-width: 1600px;
-}
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Facebook-log in or sign up</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-input {
-  outline: none;
-}
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="//db.onlinewebfonts.com/c/aa12a710af434ef5e04f88fc37a4c7cc?family=Klavika+Bold" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="./css/styles.css">
 
+  </head>
+  <body>
+      <header class="title-bar">
+          <div class="title">
+              <h1 class="fb">facebook</h1>
+              <table class="table-head">
+                  <tbody>
+                      <tr>
+                          <td class="table-body"><label>Email or phone</label></td>
+                          <td class="table-body"><label>Password</label></td>
+                      </tr>
+                      <tr>
+                          <td class="table-body" class="blank"><input type="text" name="" value=""></td>
+                          <td class="table-body" class="blank"><input type="text" name="" value=""></td>
+                          <td><button class="button">Log in</button></td>
+                      </tr>
+                      <tr>
+                          <td></td>
+                          <td><a id="forgot" href="#">Forgotten account?</a></td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+      </header>
+      <main>
+        <div class="main-body">
+        <section id="left-part">
+          <div class="left-text">
+          <p>Facebook helps you connect and share with the people in your life.</p>
+        </div>
+          <img src="./images/facebook-team-image.png" alt="">
+      </section>
+        <div class="form">
+          <div class="form-heading">
+            <h1>Create an account</h1>
+            <p>It's quick and easy</p>
+          </div>
+          <form action="sub">
+            <div class="full_name_wrapper">
+              <div class="text-input">
+                <input type="text" placeholder="First name" class="first_name" />
+              </div>
+              <div class="text-input">
+                <input type="text" placeholder="Surname" class="surname" />
+              </div>
+            </div>
+            <div class="num_or_email_wrapper text-input">
+              <input
+                type="text"
+                placeholder="Mobile number or email address"
+                class="num_or_email"
+              />
+            </div>
+            <div class="passwrod_wrapper text-input">
+              <input
+                type="password"
+                placeholder="New password"
+                class="password"
+              />
+            </div>
+  
+            <div class="date-of-birth">
+              <h3 class="info">Date of birth</h3>
+              <span class="select_birthday_day">
+                <select name="birthday_day" id="birthday_day">
+                  <option value="0">1</option>
+                  <option value="1">2</option>
+                  <option value="2">3</option>
+                  <option value="3">4</option>
+                  <option value="4">5</option>
+                  <option value="5">6</option>
+                  <option value="6">7</option>
+                  <option value="7">8</option>
+                  <option value="8">9</option>
+                  <option value="9">10</option>
+                  <option value="0">11</option>
+                  <option value="1">12</option>
+                  <option value="2">13</option>
+                  <option value="3">14</option>
+                  <option value="4">15</option>
+                  <option value="5">16</option>
+                  <option value="6">17</option>
+                  <option value="7">18</option>
+                  <option value="8">19</option>
+                  <option value="9">20</option>
+                  <option value="0">21</option>
+                  <option value="1">22</option>
+                  <option value="2">23</option>
+                  <option value="3">24</option>
+                  <option value="4">25</option>
+                  <option value="5">26</option>
+                  <option value="6">27</option>
+                  <option value="7">28</option>
+                  <option value="8">29</option>
+                  <option value="9">30</option>
+                  <option value="0">31</option>
+                </select>
+              </span>
+              <span class="select_birthday_month">
+                <select name="birthday_month" id="month">
+                  <option value="0">Jan</option>
+                  <option value="1">Feb</option>
+                  <option value="2">Mar</option>
+                  <option value="3">April</option>
+                  <option value="4">May</option>
+                  <option value="5">June</option>
+                  <option value="6">July</option>
+                  <option value="7">Aug</option>
+                  <option value="8">Sept</option>
+                  <option value="9">Oct</option>
+                  <option value="10">Nov</option>
+                  <option value="11">Dec</option>
+                </select>
+              </span>
+              <span class="select_birthday_year">
+                <select name="birthday_year" id="year">
+                  <option value="2019">2019</option>
+                  <option value="2018">2018</option>
+                  <option value="2017">2017</option>
+                  <option value="2016">2016</option>
+                  <option value="2015">2015</option>
+                  <option value="2014">2014</option>
+                  <option value="2013">2013</option>
+                  <option value="2019">2012</option>
+                  <option value="2018">2011</option>
+                  <option value="2017">2010</option>
+                  <option value="2016">2009</option>
+                  <option value="2015">2008</option>
+                  <option value="2014">2007</option>
+                  <option value="2013">2006</option>
+                  <option value="2019">2005</option>
+                  <option value="2018">2004</option>
+                  <option value="2017">2003</option>
+                  <option value="2016">2002</option>
+                  <option value="2015">2001</option>
+                  <option value="2014">2000</option>
+                  <option value="2013">1999</option>
+                  <option value="2019">1998</option>
+                  <option value="2018">1997</option>
+                  <option value="2017">1996</option>
+                  <option value="2016">1995</option>
+                  <option value="2015">1994</option>
+                  <option value="2014">1993</option>
+                  <option value="2013">1992</option>
+                </select>
+              </span>
+              <span class="click_for_more_info">?</span>
+            </div>
+  
+            <div class="gender">
+              <h5 class="info">Gender</h5>
+              <span> <input type="radio" name="sex" /> Female </span>
+              <span> <input type="radio" name="sex" /> Male </span>
+              <span> <input type="radio" name="sex" />Custom </span>
+  
+              <span class="click_for_more_info">?</span>
+            </div>
+            <div class="data_policy_wrapper">
+              <p class="data_policy">
+                By clicking Sign Up, you agree to our
+                <a class="highlight">Terms, Data Policy</a> and<br>
+                <a class="highlight">Cookie Policy</a>.You may receive SMS
+                notifications from us and<br> can opt out at any time.
+              </p>
+            </div>
+            <div class="sign_up_button_wrapper">
+              <button type="button" class="sign_up_button">Sign Up</button>
+            </div>
+            <div class="create_a_page_wrapper">
+              <p class="create_a_page">
+                <a href="" class="highlight">Create a Page </a>for a celebrity,
+                band or business.
+              </p>
+            </div>
+          </form>
+        </div>
+        </div>
+      </main>
+  
 
-.title {
-  display: flex;
-  margin: auto 250px;
-  height: inherit;
-  zoom: 0.9;
-  /* For Firefox */
-  -moz-transform: scale(0.5);
-  -moz-transform-origin: 0 0;
-}
+      <footer>
+          <div id="footer_wrapper">
+              <div id="footer1">
+                  English (UK) <a href="">Hausa</a>
+                      <a href="">Português (Brasil)</a>
+                      <a href="">Français (France)</a>
+                      <a href="">Español</a>
+                     <a href=""> العربية</a>
+                     <a href="">Italiano</a>
+                      <a href="">日本語</a>
+                      <a href="">Deutsch</a>
+                      <a href="">Bahasa Indonesia</a>
+                      <a href="">हिन्दी</a>
+              </div>
+              <hr>
+              <div id="footer2">
+                  <a href="#">Sign Up</a> <a href="">Log In</a> <a href="">Messenger</a> <a href="">Facebook Lite</a> <a
+                          href="">Watch</a> <a href="">People</a> <a href="">Pages</a> <a href="">Page categories</a> <a
+                          href="">Places</a> <a href="">Games</a>
+                      <a href="">Locations</a> <a href="">Marketplace</a> <a href="">Facebook Pay</a> <a
+                          href="">Groups</a> <br><a href="">Oculus</a> <a href="">Portal</a> <a href="">Instagram</a> <a
+                          href="">Local</a> <a href="">Fundraisers</a> <a href="">Services</a>
+                      <a href="">About</a> <a href="">Create ad</a> <a href="">Create Page</a> <a href="">Developers</a>
+                      <a href="">Careers</a> <a href="">Privacy</a> <a href="">Cookies</a> <a href="">AdChoices</a> <br><a href="">Terms</a> <a href="">Help</a>
+              </div>
+         
+              <p id="copyright">Facebook &copy; 2020</p>
+              </div>
+              </footer>
 
-
-
-.fb {
-  font-size: 54px;
-  display: inline;
-  padding-bottom: 100px;
-  font-family: "Klavika Bold";
-  color: white;
-  padding-right: 200px;
-}
-
-.table-head {
-  display: block;
-  font-size: 14px;
-  font-family: Helvetica, Arial, sans-serif;
-  line-height: 1.34;
-  padding-left: 350px;
-}
-
-
-.blank {
-  border: 1px solid black;
-  border-color: #1d2a5b;
-  margin: 0;
-  width: 142px;
-  outline: dotted;
-}
-
-.table-body {
-  padding-right: 14px;
-  padding-bottom: 4px;
-}
-
-.title-bar {
-  background-color: #3b5998;
-  color: white;
-  margin: 0px;
-  padding-top: 13px;
-  height: 82px;
-
-}
-
-.button {
-  color: white;
-  background-color: rgb(68, 141, 201);
-  border: 0;
-  border-color: #29487d;
-}
-
-.button:hover {
-  background-color: #002981;
-}
-
-#forgot {
-  padding-top: 6px;
-  color: #9cb4d8;
-  font-weight: normal;
-}
-
-/* Form */
-.form {
-  padding-left: 200px;
-  /* When styling, please change this background */
-}
-
-.form-heading {
-  padding: 0px 0;
-}
-
-main {
-  height: 700px;
-  width: 100%;
-  background-color: #dfe6e7;
-}
-
-.text-input {
-  border: 1px solid #bdc7d8;
-  background: #fff;
-  border-radius: 5px;
-  height: 39px;
-}
-
-.text-input input {
-  height: 100%;
-  width: 100%;
-  padding: 8px 10px;
-  box-sizing: border-box;
-  border: none;
-  background: transparent;
-}
-
-.full_name_wrapper {
-  margin-bottom: 15px;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.full_name_wrapper .text-input {
-  width: 48%;
-}
-
-.num_or_email_wrapper {
-  margin-bottom: 15px;
-}
-
-.passwrod_wrapper {
-  margin-bottom: 15px;
-}
-
-.date-of-birth,
-.gender {
-  position: relative;
-}
-
-.gender span{
-  padding: 5px;
-  font-size: 18px;
-}
-
-.info {
-  color: #90949c;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.gender h5 {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 5px;
-}
-
-.date-of-birth h3 {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 5px;
-}
-
-.data_policy_wrapper {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 5px;
-  font-size: 12px;
-}
-
-.highlight {
-  color: #385898 !important;
-  cursor: pointer;
-  text-decoration: none;
-
-}
-
-.sign_up_button_wrapper {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 5px;
-}
-
-.click_for_more_info {
-  position: relative;
-  top: -8px;
-  border-radius: 50%;
-  font-size: 10px;
-  height: 16px;
-  width: 16px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.sign_up_button {
-  font-weight: bold;
-  background: linear-gradient(#67ae55, #578843);
-  background-color: #69a74e;
-  box-shadow: inset 0 1px 1px #a4e388;
-  border-color: #3b6e22 #3b6e22 #2c5115;
-  border: 1px solid;
-  border-radius: 5px;
-  color: #fff;
-  width: 194px;
-  height: 49px;
-  font-size: 19px;
-}
-
-.create_a_page {
-  border-top: 1px solid #dddfe2;
-  color: #666;
-  font-size: 13px;
-  font-weight: bold;
-}
-
-#footer_wrapper {
-  margin: 45px 250px 20px;
-  font-size: 13px;
-  line-height: 1.6;
-  word-spacing: 9px;
-  color: #737373;
-
-}
-
-#footer_wrapper a {
-  color: #385898;
-  cursor: pointer;
-}
-
-#copyright {
-  padding-top: 10px;
-  font-size: 11px;
-  word-spacing: normal;
-}
-
-#left-part {
-  margin-right: 15px;
-  padding-left: 200px;
-
-}
-
-.left-text {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #0e385f;
-  font-size: 20px;
-  width: 450px;
-  margin: 40px 0 0 0px;
-  font-weight: bold;
-  word-spacing: -1px;
-  line-height: 29px;
-}
-
-.main-body {
-  display: flex;
-  background-image: linear-gradient(white, rgb(211, 216, 232));
-}
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+          integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+      </script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+          integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+      </script>
+  </body>
+</html>
