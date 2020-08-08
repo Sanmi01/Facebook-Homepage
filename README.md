@@ -1,27 +1,77 @@
-# Facebook-Homepage
-# The first design team project with wejapa.
-  The facebook-Homepage is the task given to us to 
-Recreate/clone the popular facebook page. 
-In our mentors intrest to text our beginner skill in 
-Html and css.
+# WEJAPA INTERNSHIP
+# Team Beginner-E Project 
 
-#howfar we've come;
-This project was collaborated on by Nine team members
-with their name below, (insert members name) each person had a part of 
-The page assign to them by the team leader in person 
-Of (team leader's name).
+## Facebook Homepage
+  The facebook-Homepage was the task given to the team (Team-beginners-e) to recreate.
+The task was given to test our skills in HTML and CSS. 
 
-#please in front of each team memeber name, analyze
-How you contributed to the project. (this line shoud be 
-taken away when the instruction is done)
+# Team Work
+This project was collaborated on by 9 team members. The project was built with HTML and CSS. The names of team members that collaborated are:
+
+(Team lead please take the first spot. Delete this brackets after you have inputted your details)
+
+### 1. Name: 
+###    Slack username: 
+###    Contribution: 
+# _________________________________________________
+
+### 2. Name: 
+###    Slack username: 
+###    Contribution: 
+
+# _________________________________________________
+
+### 3. Name: 
+###    Slack username: 
+###    Contribution: 
+
+# _________________________________________________
+
+### 4. Name: 
+###    Slack username: 
+###    Contribution: 
+
+# _________________________________________________
+
+### 5. Name: 
+###    Slack username: 
+###    Contribution: 
+
+# _________________________________________________
+
+### 6. Name: 
+###    Slack username: 
+###    Contribution: 
+
+# _________________________________________________
+
+### 7. Name: 
+###    Slack username: 
+###    Contribution: 
+
+# _________________________________________________
+
+### 8. Name: 
+###    Slack username: 
+###    Contribution: 
+
+# _________________________________________________
+
+### 9. Name: Daniel Chukwuyenum Dennis
+###    Slack username: deedan19
+###    Contribution: Facebook Homepage form
+
+# _________________________________________________
+
+# Result
+This is our first time collaborating together
+as front-end beginners. The Facebook Homepage was recreated by the team. 
+Every part of the page was recreated just the way it was built, but there is no functionality.
+The page is hosted on GitHub pages.
 
 
-#Our effort
-This is our first time working/collaborating together
-as front-end beginners, we must say it the result worth it
-Every thrill of #i dont know how to do this, How was
-was this done. Espcially the whole github thing. (pulling and pushing code to 
-To github). 
-
-Our brain was streched but we move! 
-We grateful for the opportunity ❤
+# Appreciation 
+We are grateful to the management, admins, and mentors of WEJAPA.
+We appreciate every bit of opportunity given to beginners like us. 
+From the onset of not knowing anything about coding to the provision of resources by WEJAPA, and then to the completion of this project, we are glad of how far we have come. 
+Thank you.  
