@@ -15,9 +15,9 @@ This project was collaborated on by 9 team members. The project was built with H
 ###    Contribution: 
 # _________________________________________________
 
-### 2. Name: 
-###    Slack username: 
-###    Contribution: 
+### 2. Name: Tijani Zainab
+###    Slack username: Zainab
+###    Contribution: Header
 
 # _________________________________________________
 
