@@ -7,6 +7,22 @@ input {
   outline: none;
 }
 
+main {
+  width: 100%;
+  background-color: #dfe6e7;
+}
+
+
+/* for the header*/
+.title-bar {
+  background-color: #3b5998;
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  border-bottom: 1px solid #133783;
+  color: white;
+  margin: 0px;
+  padding-top: 13px;
+  height: 86px;
+}
 
 .title {
   display: flex;
@@ -18,8 +34,6 @@ input {
   -moz-transform-origin: 0 0;
   justify-content: space-evenly;
 }
-
-
 
 .fb-logo {
   color: #385898;
@@ -36,6 +50,10 @@ input {
   padding-left: 350px;
 }
 
+.table-body {
+  padding-right: 14px;
+  padding-bottom: 4px;
+}
 
 .blank {
   border: 1px solid black;
@@ -45,33 +63,14 @@ input {
   outline: dotted;
 }
 
-.table-body {
-  padding-right: 14px;
-  padding-bottom: 4px;
-}
-
-.title-bar {
-  background-color: #3b5998;
-  background-image: linear-gradient(#4e69a2, #3b5998 50%);
-  border-bottom: 1px solid #133783;
-  color: white;
-  margin: 0px;
-  padding-top: 13px;
-  height: 86px;
-}
-
 .button {
   background: none;
-    font-weight: bold;
-    color: white;
-    border: 1px solid #ccd0d5;
-    padding: 2px 6px;
-    background-color: #4267b2;
-    border-color: #29487d;
-}
-
-.button:hover {
-  background-color: #002981;
+  font-weight: bold;
+  color: white;
+  border: 1px solid #ccd0d5;
+  padding: 2px 6px;
+  background-color: #4267b2;
+  border-color: #29487d;
 }
 
 #forgot {
@@ -80,20 +79,48 @@ input {
   font-weight: normal;
 }
 
-/* Form */
+/* for the main */
+
+.main-body {
+  display: flex;
+  background-image: linear-gradient(white, rgb(211, 216, 232));
+}
+
+#left-part {
+  margin-right: 15px;
+  padding-left: 200px;
+}
+
+.left-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0e385f;
+  font-size: 20px;
+  width: 450px;
+  margin: 40px 0 0 0px;
+  font-weight: bold;
+  word-spacing: -1px;
+  line-height: 29px;
+}
+
 .form {
-  padding-left: 120px;
+  padding-left: 90px;
   padding-top: 25px;
-  /* When styling, please change this background */
 }
 
 .form-heading {
   padding: 0px 0;
 }
 
-main {
-  width: 100%;
-  background-color: #dfe6e7;
+.full_name_wrapper {
+  margin-bottom: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.full_name_wrapper .text-input {
+  width: 48%;
 }
 
 .text-input {
@@ -112,72 +139,12 @@ main {
   background: transparent;
 }
 
-.full_name_wrapper {
-  margin-bottom: 15px;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.full_name_wrapper .text-input {
-  width: 48%;
-}
-
 .num_or_email_wrapper {
   margin-bottom: 15px;
 }
 
-.passwrod_wrapper {
+.password_wrapper {
   margin-bottom: 15px;
-}
-
-.date-of-birth,
-.gender {
-  position: relative;
-}
-
-.gender span{
-  padding: 5px;
-  font-size: 18px;
-}
-
-.info {
-  color: #90949c;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.gender h5 {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 5px;
-}
-
-.date-of-birth h3 {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 5px;
-}
-
-.data_policy_wrapper {
-  padding-top: 10px;
-  padding-bottom: 5px;
-  color: #777;
-  font-size: 12px;
-}
-
-.highlight {
-  color: #385898 !important;
-  cursor: pointer;
-  text-decoration: none;
-
-}
-
-.sign_up_button_wrapper {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 5px;
 }
 
 .click_for_more_info {
@@ -192,6 +159,47 @@ main {
   justify-content: center;
   color: #fff;
   background: rgba(0, 0, 0, 0.5);
+}
+
+.date-of-birth,
+.gender {
+  position: relative;
+}
+
+.gender span {
+  padding: 5px;
+  font-size: 18px;
+}
+
+.gender h5 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.info {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.data_policy_wrapper {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: #777;
+  font-size: 12px;
+}
+
+.highlight {
+  color: #385898 !important;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.sign_up_button_wrapper {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .sign_up_button {
@@ -216,13 +224,13 @@ main {
   font-weight: bold;
 }
 
+/* for the footer */
 #footer_wrapper {
   margin: 45px 250px 20px;
   font-size: 13px;
   line-height: 1.6;
   word-spacing: 9px;
   color: #737373;
-
 }
 
 #footer_wrapper a {
@@ -234,26 +242,4 @@ main {
   padding-top: 10px;
   font-size: 11px;
   word-spacing: normal;
-}
-
-#left-part {
-  margin-right: 15px;
-  padding-left: 200px;
-
-}
-
-.left-text {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #0e385f;
-  font-size: 20px;
-  width: 450px;
-  margin: 40px 0 0 0px;
-  font-weight: bold;
-  word-spacing: -1px;
-  line-height: 29px;
-}
-
-.main-body {
-  display: flex;
-  background-image: linear-gradient(white, rgb(211, 216, 232));
 }
