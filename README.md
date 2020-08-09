@@ -8,8 +8,8 @@ The task was given to test our skills in HTML and CSS.
 # Team Work
 This project was collaborated on by 9 team members. The project was built with HTML and CSS. The names of team members that collaborated are:
 
-### 1. Name: 
-###    Slack username: Awelewa Oluwasanmi 
+### 1. Name: Awelewa Oluwasanmi Omolade
+###    Slack username: Sanmi01 
 ###    Contribution: Header
 # _________________________________________________
 
