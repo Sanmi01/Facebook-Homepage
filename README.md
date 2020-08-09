@@ -31,9 +31,9 @@ This project was collaborated on by 9 team members. The project was built with H
 
 # _________________________________________________
 
-### 5. Name: 
-###    Slack username: 
-###    Contribution: 
+### 5. Name: Abdulrasheed Adediran 
+###    Slack username: Abdulrasheed
+###    Contribution: Footer
 
 # _________________________________________________
 
