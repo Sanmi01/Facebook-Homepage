@@ -49,9 +49,9 @@ This project was collaborated on by 9 team members. The project was built with H
 
 # _________________________________________________
 
-### 8. Name: 
-###    Slack username: 
-###    Contribution: 
+### 8. Name: Abubakar Adamu
+###    Slack username: abu4kind
+###    Contribution: Styling the facebook home page form
 
 # _________________________________________________
 
