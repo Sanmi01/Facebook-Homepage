@@ -13,7 +13,7 @@ This project was collaborated on by 9 team members. The project was built with H
 ###    Contribution: Header
 # _________________________________________________
 
-### 2. Name: Tijani Zainab
+### 2. Name: Tijani Zainab Temitope
 ###    Slack username: Zainab
 ###    Contribution: Header
 
@@ -21,13 +21,13 @@ This project was collaborated on by 9 team members. The project was built with H
 
 ### 3. Name: Adewale Abdulrazaq
 ###    Slack username:Classyrazy 
-###    Contribution: left-part
+###    Contribution: Left-part
 
 # _________________________________________________
 
-### 4. Name: 
-###    Slack username: 
-###    Contribution: 
+### 4. Name: Victor Shigaba
+###    Slack username: Victor
+###    Contribution: Form
 
 # _________________________________________________
 
@@ -37,14 +37,14 @@ This project was collaborated on by 9 team members. The project was built with H
 
 # _________________________________________________
 
-### 6. Name: 
-###    Slack username: 
-###    Contribution: 
+### 6. Name: Yinka Akinnukawe
+###    Slack username: tariy
+###    Contribution: Footer
 
 # _________________________________________________
 
-### 7. Name: 
-###    Slack username: 
+### 7. Name: Okon Nuel
+###    Slack username: nuel
 ###    Contribution: 
 
 # _________________________________________________
