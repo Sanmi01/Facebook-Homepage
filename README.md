@@ -21,9 +21,9 @@ This project was collaborated on by 9 team members. The project was built with H
 
 # _________________________________________________
 
-### 3. Name: 
-###    Slack username: 
-###    Contribution: 
+### 3. Name: Adewale Abdulrazaq
+###    Slack username:Classyrazy 
+###    Contribution: left-part
 
 # _________________________________________________
 
